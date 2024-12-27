@@ -1,0 +1,67 @@
+.home-container{
+    height: 220px;
+    color: rgb(179, 206, 191);
+    padding-left: 200px;
+}
+
+.home-content h2{
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.home-content h1{
+    padding-left: 10px;
+    color: coral;
+}
+
+.home-buttons .btn-hire{
+    background-color: skyblue;
+    color: white;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    transition: background-color 1s, color 1s, width 1s, margin 1s;
+}
+
+.home-buttons .btn-hire:hover{
+    background-color: white;
+    color: skyblue;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.home-buttons .btn-cv{
+    background-color: coral;
+    color: white;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 15px;
+    
+}
+
+.home-buttons .btn-cv:hover{
+    transition:1s;
+    background-color: white;
+    color: coral;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}

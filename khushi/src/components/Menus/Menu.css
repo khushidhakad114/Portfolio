@@ -1,0 +1,39 @@
+.navbar-profile-pic img{
+    border-radius: 90px;
+    height: 110px;
+    width: 110px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-left: 25px;
+    border: 1px solid rgb(82, 117, 106);
+}
+
+.nav-item{
+    color: rgb(14, 54, 40);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.nav-link{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.nav-link svg{
+    margin-right: 10px;
+    height: 25px;
+    width: 20px;
+}
+
+.nav-link:hover{
+     color: coral;
+}
+
+.nav-link .active{
+    color: coral;
+    border-left: 5px solid coral;
+    padding-left: 10px;
+    text-decoration: none;
+}

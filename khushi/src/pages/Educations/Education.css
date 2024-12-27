@@ -1,0 +1,18 @@
+.education {
+    margin: 50px 0;
+    margin-left: 200px;
+    background-color: rgb(193, 252, 223);
+}
+
+.education hr {
+    color: rgb(52, 84, 74);
+    width: 400px;
+    margin: 10px auto;
+}
+
+.education h2 {
+    font-weight: bold;
+    color: rgb(59, 91, 77);
+    text-align: center;
+}
+
